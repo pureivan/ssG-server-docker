@@ -11,7 +11,7 @@ yum --disablerepo=epel -y update ca-certificates; \
 yum install -y m2crypto  python python-pip python-setuptools git; \
 yum clean all
 
-# Download and Install quickbuild
+# Download and Install shadowsocks
 WORKDIR /opt/
 
 RUN \
