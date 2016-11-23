@@ -1,4 +1,4 @@
-FROM centos/centos6
+FROM centos:centos6
 MAINTAINER pureivan
 
 # Download and Install shadowsocks
